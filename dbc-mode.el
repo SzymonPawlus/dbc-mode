@@ -1,11 +1,11 @@
 ;;; dbc-mode.el --- Major mode for DBC bytecode files -*- lexical-binding: t; -*-
 
-;; Author: Your Name <your.email@example.com>
-;; Maintainer: Your Name <your.email@example.com>
+;; Author: Szymon Pawlus <pawlu.szymon@gmail.com>
+;; Maintainer: Szymon Pawlus <pawlu.szymon@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: languages, tools, bytecode
-;; URL: https://github.com/your-username/dbc-mode
+;; URL: https://github.com/SzymonPawlus/dbc-mode
 
 ;;; Commentary:
 

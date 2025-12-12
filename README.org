@@ -1,5 +1,5 @@
 #+TITLE: DBC Mode for Emacs
-#+AUTHOR: [Your Name]
+#+AUTHOR: [Szymon Pawlus]
 
 A major mode for editing DBC Bytecode files.
 
@@ -14,7 +14,7 @@ A major mode for editing DBC Bytecode files.
 ** Doom Emacs
 1. Add the following to ~packages.el~:
    #+begin_src elisp
-   (package! dbc-mode :recipe (:host github :repo "your-username/dbc-mode"))
+   (package! dbc-mode :recipe (:host github :repo "SzymonPawlus/dbc-mode"))
    #+end_src
 2. Run ~$ doom sync~.
 3. Configure in ~config.el~ (optional):
