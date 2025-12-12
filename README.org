@@ -1,0 +1,35 @@
+#+TITLE: DBC Mode for Emacs
+#+AUTHOR: [Your Name]
+
+A major mode for editing DBC Bytecode files.
+
+* Features
+- Syntax highlighting for all DBC instructions.
+- Auto-completion for instructions and types.
+- Basic indentation support.
+- Comment handling (`#`).
+
+* Installation
+
+** Doom Emacs
+1. Add the following to ~packages.el~:
+   #+begin_src elisp
+   (package! dbc-mode :recipe (:host github :repo "your-username/dbc-mode"))
+   #+end_src
+2. Run ~$ doom sync~.
+3. Configure in ~config.el~ (optional):
+   #+begin_src elisp
+   (after! dbc-mode
+     (set-company-backend! 'dbc-mode '(company-capf company-dabbrev-code)))
+   #+end_src
+
+** Manual Installation
+1. Clone this repository to your load path.
+2. Add to your configuration:
+   #+begin_src elisp
+   (add-to-list 'load-path "/path/to/dbc-mode")
+   (require 'dbc-mode)
+   #+end_src
+
+* Usage
+Open any file with the ~.dbc~ extension.
